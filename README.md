@@ -1,42 +1,21 @@
-<p align="center"> <img alt="Space Station 14" width="1200" height="1300" src="https://github.com/Inky-Station/Inky-Station/blob/master/Resources/Textures/Logo/logo.png" /></p> 
+Это форк Inky Station - билда, что форкнут от Trauma Station. 
 
-This is a fork from the primary repo for Trauma Station called Inky Station. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server this is the content pack for Trauma Station.
+## Ссылки
 
-If you want to host or create content for SS14, go to the [Space Station 14 repository](https://github.com/space-wizards/space-station-14) as it contains both RobustToolbox and the content pack for development of new content packs and is the base for your fork.
+Дискорд сервер DnB
+[Inky Station Discord Server](https://discord.gg/fPjDuWcQJ6)
 
-## Links
+## Документация/Вики
 
-[Inky Station Discord Server](https://discord.gg/Tmjfu6Mt9p) | [Devbus Discord Server](https://discord.gg/f3rJaCuK) | [SS14 Forums](https://forum.spacestation14.com/) | [SS14 Website](https://spacestation14.com/)
+Игровая вики Trauma Station [доступна здесь](https://wiki.traumastation.com/wiki/Main_Page).
+Наша вики пока в разработке.
 
-## Documentation/Wiki
+## Контрибьют
+Ваш вклад в разработку билда приветствуется, но не обязан быть принятым беспрекословно.
+При создании PR мы рекомендуем придерживаться [принципам описанным здесь](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html), но не требуем этого от вас: придерживаясь их, 
 
-Trauma itself has a non-technical wiki on its content [here](https://wiki.traumastation.com/wiki/Main_Page)
-
-SS14 Docs [docs site](https://docs.spacestation14.com/) has documentation on SS14's content, engine, game design, and more. It also has lots of resources for new contributors to the project.
-
-## Contributing
-
-We are happy to accept contributions from anybody. Get in [Development Discord Server](https://discord.gg/f3rJaCuK) if you want to help. Don't be afraid to ask for help either!
-While following the [Space Station 14 contribution guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html) is not mandatory for Inky Station, we recommend reviewing them for best practices.
-
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language consider creating a fork or contributing to a fork.
-
-## AI-generated contributions disclaimer
-dont make it obvious
-
-## Building
-
-You probably know. If you don't, just run this in the terminal (on windows, right-click taskbar and select powershell). You'll need git and dotnet 10 sdk (google it).
-
-```
-git clone https://github.com/Inky-Station/Inky-Station
-dotnet build -c Release
-dotnet run --project Content.Server
-```
-
-And in another terminal, `dotnet run --project Content.Client`.
-
-Also check out Scripts/ directory and a [site with more detailed instructions on building the project.](https://docs.goobstation.com/en/general-development/setup.html)
+## Отказ от ответственности в отношении материалов, созданных с помощью ИИ
+не делайте это очевидным, проверяйте и тестируйте написанное перед предложением.
 
 ## License
 
